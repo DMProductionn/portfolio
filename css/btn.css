@@ -1,0 +1,21 @@
+
+
+.up__link:hover, .up__link:focus {
+  box-shadow: inset 0 -3.65em 0 0 var(--hover);
+}
+
+
+
+.up__link {
+  --hover: #fff;
+}
+
+.up__link {
+  color: var(--color);
+  transition: 0.25s;
+}
+.up__link:hover, .up__link:focus {
+  border-color: var(--hover);
+  color: black;
+}
+

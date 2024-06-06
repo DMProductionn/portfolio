@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/game/game.css">
+  <title>Game-Drive</title>
+</head>
+<body>
+  <div class="warning"><p class="warning-text">Игра доступа только на desktop устройствах</p></div>
+  <div class="road"></div>
+  <img class="car" src="/img/car.png" alt="car">
+    <div class="line line1"></div>
+    <div class="line line2"></div>
+    <div class="line line3"></div>
+    <div class="line line4"></div>
+    <div class="line line5"></div>
+
+  <img class="tree tree3" src="img/tree/tree1.png" alt="tree">
+  <img class="tree tree2" src="img/tree/tree2.png" alt="tree">
+  <img class="tree tree1" src="img/tree/tree3.png" alt="tree">
+
+  <img class="tree tree5" src="img/tree/tree1.png" alt="tree">
+  <img class="tree tree4" src="img/tree/tree2.png" alt="tree">
+  <img class="tree tree6" src="img/tree/tree3.png" alt="tree">
+
+  <!-- <img src="" alt="arrow"> -->
+  <img class="prep" src="/img/prep.png" alt="prep">
+  <img class="coin" src="/img/coin.png" alt="coin"> 
+
+  <button class="game-button">
+    <img class="pause" src="/img/pause.png" alt="pause">
+    <img class="play" src="/img/start.png" alt="play">
+  </button>
+
+  <div class="score">
+    0
+  </div>
+
+  <div class="backdrop">
+    <div class="modal">
+      <p class="modal__text">Ваш счет: <span>0</span></p>
+      <button class="restart_button">Начать заного</button>
+    </div>
+  </div>
+  
+
+    <script src="./js/game.js"></script>
+</body>
+</html>
