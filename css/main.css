@@ -318,8 +318,18 @@ h1 {
     }
 }
 
+@media only screen and (max-width:735px) { 
+  .panel__nav.panel__nav--right.js-right {
+    top: 80%;
+  }
+}
+
 @media only screen and (max-width:633px) { 
   .up__link {
     position: static;
   }
 }
+
+
+
+
