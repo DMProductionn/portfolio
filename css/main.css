@@ -11,6 +11,10 @@ body {
   text-transform: uppercase;
 }
 
+.panel__zoom.vpn {
+  cursor: default ;
+}
+
 .site-wrap {
   transition: transform 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 }
