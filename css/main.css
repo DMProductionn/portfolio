@@ -359,6 +359,12 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 640px) {
+  .panel__zoom.vpn {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 633px) {
   .up__link {
     position: static;
